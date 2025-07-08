@@ -54,8 +54,8 @@ Before you run this project, make sure you have installed and configured the fol
     export AWS_SECRET_ACCESS_KEY=your-secret-key
     export AWS_DEFAULT_REGION=your-region
     ```
-    > [!NOTE]
-    > If you want to bypass tool consent, you can run `export BYPASS_TOOL_CONSENT=true`
+> [!NOTE]
+> If you want to bypass tool consent, you can run `export BYPASS_TOOL_CONSENT=true`
 
 4. **Run the Agent Workflow**
     ```bash
