@@ -37,7 +37,7 @@ Before you run this project, make sure you have installed and configured the fol
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/spa-web-builder-agent.git
+   git clone https://github.com/fromhell13/spa-web-builder-agent.git
    cd spa-web-builder-agent
    ```
 
