@@ -197,15 +197,6 @@ wheels = [
 ]
 
 [[package]]
-name = "fire"
-version = "0.7.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "termcolor" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/6b/b6/82c7e601d6d3c3278c40b7bd35e17e82aa227f050aa9f66cb7b7fce29471/fire-0.7.0.tar.gz", hash = "sha256:961550f07936eaf65ad1dc8360f2b2bf8408fad46abbfa4d2a3794f8d2a95cdf", size = 87189, upload-time = "2024-10-01T14:29:31.585Z" }
-
-[[package]]
 name = "h11"
 version = "0.16.0"
 source = { registry = "https://pypi.org/simple" }
@@ -502,15 +493,6 @@ wheels = [
 ]
 
 [[package]]
-name = "progress"
-version = "1.6.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/ac/26/3b086f0c5d6c1c18c2430d6fac3a99d79553884ca6cdf759cf256dd43b7d/progress-1.6.1.tar.gz", hash = "sha256:c1ba719f862ce885232a759eab47971fe74dfc7bb76ab8a51ef5940bad35086c", size = 7164, upload-time = "2025-07-01T05:50:43.33Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/42/59/123aee44a039b212cfb8d90be1adf06496a99b313ee1683aadf90b3d9799/progress-1.6.1-py3-none-any.whl", hash = "sha256:5239f22f305c12fdc8ce6e0e47f70f21622a935e16eafc4535617112e7c7ea0b", size = 9761, upload-time = "2025-07-01T05:50:40.963Z" },
-]
-
-[[package]]
 name = "prompt-toolkit"
 version = "3.0.51"
 source = { registry = "https://pypi.org/simple" }
@@ -685,15 +667,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/f3/87/f44d7c9f274c7ee66
 wheels = [
     { url = "https://files.pythonhosted.org/packages/45/58/38b5afbc1a800eeea951b9285d3912613f2603bdf897a4ab0f4bd7f405fc/python_multipart-0.0.20-py3-none-any.whl", hash = "sha256:8a62d3a8335e06589fe01f2a3e178cdcc632f3fbe0d492ad9ee0ec35aab1f104", size = 24546, upload-time = "2024-12-16T19:45:44.423Z" },
 ]
-
-[[package]]
-name = "randomname"
-version = "0.2.1"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "fire" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/e8/c2/525e9e9b458c3ca493d9bd0871f3ed9b51446d26fe82d462494de188f848/randomname-0.2.1.tar.gz", hash = "sha256:b79b98302ba4479164b0a4f87995b7bebbd1d91012aeda483341e3e58ace520e", size = 64242, upload-time = "2023-01-29T02:42:26.469Z" }
 
 [[package]]
 name = "referencing"
@@ -1006,15 +979,6 @@ wheels = [
 ]
 
 [[package]]
-name = "termcolor"
-version = "3.1.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/ca/6c/3d75c196ac07ac8749600b60b03f4f6094d54e132c4d94ebac6ee0e0add0/termcolor-3.1.0.tar.gz", hash = "sha256:6a6dd7fbee581909eeec6a756cff1d7f7c376063b14e4a298dc4980309e55970", size = 14324, upload-time = "2025-04-30T11:37:53.791Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/4f/bd/de8d508070629b6d84a30d01d57e4a65c69aa7f5abe7560b8fad3b50ea59/termcolor-3.1.0-py3-none-any.whl", hash = "sha256:591dd26b5c2ce03b9e43f391264626557873ce1d379019786f99b0c2bee140aa", size = 7684, upload-time = "2025-04-30T11:37:52.382Z" },
-]
-
-[[package]]
 name = "typing-extensions"
 version = "4.14.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1114,9 +1078,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "boto3" },
-    { name = "progress" },
     { name = "python-dotenv" },
-    { name = "randomname" },
     { name = "strands-agents" },
     { name = "strands-agents-tools" },
 ]
@@ -1124,9 +1086,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "boto3", specifier = ">=1.39.2" },
-    { name = "progress", specifier = ">=1.6.1" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
-    { name = "randomname", specifier = ">=0.2.1" },
     { name = "strands-agents", specifier = ">=0.2.0" },
     { name = "strands-agents-tools", specifier = ">=0.1.8" },
 ]
