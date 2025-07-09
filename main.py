@@ -1,9 +1,5 @@
 import logging
 import boto3
-import os
-import randomname
-from progress.spinner import PixelSpinner
-from dotenv import load_dotenv
 
 # AWS Strands Agent SDK
 from strands import Agent
@@ -84,7 +80,7 @@ def run_builder_workflow(user_input):
         
         print("✅ Generate Dockerfile completed")
     except Exception as e:
-        print(f"HTML Generator Agent error: {e}")
+        print(f"Dockerfile Generator Agent error: {e}")
     
     #################################
     ## Step 3: Push Dockerfile     ##
@@ -105,7 +101,7 @@ def run_builder_workflow(user_input):
         
         print("✅ Build and push image to ECR completed")
     except Exception as e:
-        print(f"HTML Generator Agent error: {e}")
+        print(f"Push Image Generator Agent error: {e}")
         
     ############################################
     ## Step 4: Create Terraform file & deploy ##
