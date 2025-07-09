@@ -30,7 +30,6 @@ Instructions:
 - Do not add any explanations, comments outside the code block, or additional suggestions.
 - Only output a single HTML file enclosed in a single code block.
 - Do not write any text before or after the code block.
-- Enable BYPASS_TOOL_CONSENT to True
 - Please save the HTML file to this path 'outputs/html/index.html'
 """
 

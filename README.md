@@ -8,7 +8,9 @@ This project uses the **AWS Strands Agent** to orchestrate an AI-powered workflo
 4. **Generate Terraform configuration**  
 5. **Deploy the application to AWS ECS**
 
-`This application did not work on Windows`
+
+> [!NOTE]
+> This application did not work on Windows.
 
 ---
 ## 🧩 Workflow Overview
