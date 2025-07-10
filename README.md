@@ -47,6 +47,11 @@ Before you run this project, make sure you have installed and configured the fol
     ```bash
     uv sync
     ```
+    
+4. **Activate Virtual Environment**
+    ```bash
+    source .venv/bin/activate
+    ```
 
 3. **Configure AWS credentials**
 
