@@ -66,7 +66,7 @@ Before you run this project, make sure you have installed and configured the fol
 
 5. **Environment Configuration**
 
-    Change .env.sample file to .env with your own information
+    Rename .env.sample file to .env and fill up environment variable with your own data
     ```bash
     AWS_ACCESS_KEY_ID=
     AWS_SECRET_ACCESS_KEY=
