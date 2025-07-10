@@ -47,13 +47,13 @@ Before you run this project, make sure you have installed and configured the fol
     ```bash
     uv sync
     ```
-    
-4. **Activate Virtual Environment**
+
+3. **Activate Virtual Environment**
     ```bash
     source .venv/bin/activate
     ```
 
-3. **Configure AWS credentials**
+4. **Configure AWS credentials**
 
     You can export them in your shell or configure them using `aws configure`:
     ```bash
@@ -64,7 +64,19 @@ Before you run this project, make sure you have installed and configured the fol
 > [!NOTE]
 > If you want to bypass tool consent, you can run `export BYPASS_TOOL_CONSENT=true`
 
-4. **Run the Agent Workflow**
+5. **Environment Configuration**
+
+    Change .env.sample file to .env with your own information
+    ```bash
+    AWS_ACCESS_KEY_ID=
+    AWS_SECRET_ACCESS_KEY=
+    AWS_DEFAULT_REGION=
+    AWS_ACCOUNT_ID=
+    REPO_NAME=
+    IMAGE_NAME=
+    ```
+
+6. **Run the Agent Workflow**
     ```bash
     uv run main.py
     ```
